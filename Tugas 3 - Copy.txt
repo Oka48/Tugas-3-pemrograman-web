@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tugas 3 css</title>
+    <!--internal CSS-->
+<style>
+    .fitur{background-color:rgb(252, 9, 151);}
+</style>
+<!--internal CSS-->
+</head>
+<div class="fitur">
+    <h1>WELCOME </h1>
+    <h3>Microsoft Training </h3>
+    <img src="logo2.jpg" width="200">
+</div>
+<body>
+            <div style="background-color: rgb(37, 8, 202);">
+                <h4>
+            <ul> 
+            <nav class="nav"></nav>
+            <li ><a href="#profile">Profile</a></li> 
+            <li><a href="#logout">Logout</a></li>
+            </ul>
+            </h4>
+            </div>
+            
+            <div style="background-color: whitesmoke;">
+                  <h4>  <aside class="sidebar">
+                    <div style="padding: 10px;">
+                    <b>Menu</b><br>
+                    <hr>
+                    <a href="#">Home</a><br />
+                    <a href="#">Biodata anggota</a><br />
+                    <a href="#">Bantuan</a><br />
+                    <a href="#">Laporan</a><br />
+                    </h4>
+            </div>
+</body>
+<div style="background-color: rgb(8, 236, 76);">
+<h2>Biodata Anggota</h2>
+<table>
+    <tr>
+        <td>Nama </td>
+        <td>:</td>
+        <td><input type="text" name="nama" value="" placeholder="Tuliskan Nama "></td>
+        </tr>
+        <tr>
+        <td>Password </td>
+        <td>:</td>
+        <td><input type="Password" name="Password" placeholder="Password"></td>
+        </tr>
+        <tr>
+              
+        <td>Jenis Kelamin </td>
+        <td>:</td>
+        <td>
+        <input type="radio" name="jenis kelamin" value="laki-laki" checked/> laki-laki 
+        <input type="radio" name="jenis kelamin" value="perempuan" checked/> perempuan
+        <input type="radio" name="jenis kelamin" value="Lainnya" checked/> Lainnya          
+        </td>
+        </tr>
+        <tr>
+        <td>Tanggal Lahir</td>
+        <td>:</td>
+        <td><input type="text" name="tangal lahir" value="" placeholder="dd-mm-yyyy"></td>
+        </td>
+        </tr>
+        <tr>
+        <td>Email</td>
+        <td>:</td>
+        <td><input type="text" name="email" placeholder="Email"></td>
+        </td>
+        </tr>
+        <tr>
+        <td>No Telpon</td>
+        <td>:</td>
+        <td><input type="text" name="no hp" placeholder="+62 "></td>
+        </td>
+        </tr>
+        <tr>
+                <td>Jenis Microsoft Office</td>
+                <td>:</td>
+                <td><select name="agama">
+                    <option value="agama">Word</option>
+                    <option value="agama" selected>Excel</option>
+                    <option value="agama" selected>Power Point</option>
+                    <option value="agama" selected>Access</option>
+                    <option value="agama" selected>Visio</option>
+                    <option value="agama" selected>Outlook</option>
+            </td>
+            </tr>
+            <td>Lama Pelatihan </td>
+                               <td>:</td>
+                               <td><input type="checkbox" name="lama pelatihan"/> 1 bulan
+                                <input type="checkbox" name="lama pelatihan"/> 2 bulan 
+                                <input type="checkbox" name="lama pelatihan"/> 3 bulan
+                              
+                                </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3" align="right"><button> Simpan</button> </td>
+</tr>
+</table>
+</div>
+
+</html>
